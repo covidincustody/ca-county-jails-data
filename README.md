@@ -8,13 +8,14 @@ We read and process data from each county jail (in the Google Drive link) to gen
 
 # Data dictionary
 
-The data has been aggregated across all county jails and has the following definitions:
-```Incarcerated population```: The population in the Sheriff's Office county jail custody
-```Sheriff's office```: All employees, including correctional officers, administrative staff, sworn and civilian staff, in the Sheriff's Office. These employees encompass the entire Sheriff's Office and are not specific to jail or custodial roles.
-```Jail staff```: Sheriff's Office employees working in correctional settings only. In some counties, this may include non-jail Sheriff's Office employees working in the jails on a non-permanent basis
-```Medical staff```: Medical workers in the correctional setting, including part-time and full-time workers who are contracted by third-party medical services such as Wellpath or provided through the county healthcare services division.
+The data has been aggregated across all county jails and has the following definitions:\
+```Incarcerated population```:	The population in the Sheriff's Office county jail custody.\
+```Sheriff's office```:	All employees, including correctional officers, administrative staff, sworn and civilian staff, in the Sheriff's Office. These employees encompass the entire Sheriff's Office and are not specific to jail or custodial roles.\
+```Jail staff```:	Sheriff's Office employees working in correctional settings only. In some counties, this may include non-jail Sheriff's Office employees working in the jails on a non-permanent basis.\
+```Medical staff```:	Medical workers in the correctional setting, including part-time and full-time workers who are contracted by third-party medical services such as Wellpath or provided through the county healthcare services division.\
 
-Sources: Data is primarily collected from California Public Records Act (abbreviated as CPRA or PRA) requests to Sheriff's Offices and Sheriff's Office websites that contain updates on COVID-19 in custody. As a result, the data definitions below are subject to the each Sheriff's Office interpretation of our CPRA requests. Some counties hold weekly or monthly conference calls with community members, the county public health department and the correctional health provider, wherein updates on COVID-19 in custody are discussed. Data may also be collected from these calls. 
+Sources: Data is primarily collected from California Public Records Act (abbreviated as CPRA or PRA) requests to Sheriff's Offices and Sheriff's Office websites that contain updates on COVID-19 in custody. As a result, the data definitions below are subject to the each Sheriff's Office interpretation of our CPRA requests. Some counties hold weekly or monthly conference calls with community members, the county public health department and the correctional health provider, wherein updates on COVID-19 in custody are discussed. Data may also be collected from these calls.\
+
 Note: Unless specified otherwise, ""staff"" in this definitions list refers to all categories of staff, namely sheriff's office, jail staff and medical staff."		
 
 Data Category	Variable Names	Definition
