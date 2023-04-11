@@ -12,33 +12,18 @@ The data has been aggregated across all county jails and has the following defin
 ```Incarcerated population```:	The population in the Sheriff's Office county jail custody.\
 ```Sheriff's office```:	All employees, including correctional officers, administrative staff, sworn and civilian staff, in the Sheriff's Office. These employees encompass the entire Sheriff's Office and are not specific to jail or custodial roles.\
 ```Jail staff```:	Sheriff's Office employees working in correctional settings only. In some counties, this may include non-jail Sheriff's Office employees working in the jails on a non-permanent basis.\
-```Medical staff```:	Medical workers in the correctional setting, including part-time and full-time workers who are contracted by third-party medical services such as Wellpath or provided through the county healthcare services division.\
+```Medical staff```:	Medical workers in the correctional setting, including part-time and full-time workers who are contracted by third-party medical services such as Wellpath or provided through the county healthcare services division.
 
-Sources: Data is primarily collected from California Public Records Act (abbreviated as CPRA or PRA) requests to Sheriff's Offices and Sheriff's Office websites that contain updates on COVID-19 in custody. As a result, the data definitions below are subject to the each Sheriff's Office interpretation of our CPRA requests. Some counties hold weekly or monthly conference calls with community members, the county public health department and the correctional health provider, wherein updates on COVID-19 in custody are discussed. Data may also be collected from these calls.\
+Sources: Data is primarily collected from California Public Records Act (abbreviated as CPRA or PRA) requests to Sheriff's Offices and Sheriff's Office websites that contain updates on COVID-19 in custody. As a result, the data definitions below are subject to the each Sheriff's Office interpretation of our CPRA requests. Some counties hold weekly or monthly conference calls with community members, the county public health department and the correctional health provider, wherein updates on COVID-19 in custody are discussed. Data may also be collected from these calls.
 
 Note: Unless specified otherwise, ""staff"" in this definitions list refers to all categories of staff, namely sheriff's office, jail staff and medical staff."		
 
-Data Category	Variable Names	Definition
-Active Cases	"Active Cases (Incarcerated population, current)
-Active Cases (Sheriff's office, current)
-Active Cases (Jail staff, current)"	"The number of current positive confirmed COVID-19 cases. 
-NOTE: 
-Incarcerated population: Includes individuals who tested positive during the booking or intake process
-Incarcerated population/staff: For some counties, active cases may be the number of positive COVID-19 test results returned on a given date or during some time period prior to the specified date. As a result, it may be an inaccurate representation of active cases on the specified date.
-Refer to the raw data files/PRA request submissions/PRA request responses and county specific data definitions for more details."
-Confirmed Cases	"Confirmed Cases (Incarcerated population, cumulative)
-Confirmed Cases (Sheriff's office, cumulative)
-Confirmed Cases (Jail staff, cumulative)"	"The total number of positive COVID-19 cases that have been confirmed since the start of the pandemic
-NOTE: 
-Incarcerated population/staff: For some counties, the starting date of the count may be much later than Jan - March 2020, which is roughly taken to be the initial period of the pandemic. The count may also be the number of positive COVID-19 test results and not the number of COVID-19 cases, which could result in overcounting of cases. For example, if an individual was tested twice or more in the same infection period their positive cases would be counted more than once in the total.
-Sheriff's office/jail staff: For some counties, this may exclude positive cases that were not reported to the county's human resources department. It may also only include positive cases that were identified through testing on-site by the local public health department or jail medical provider.
-Refer to the raw data files/PRA request submissions/PRA request responses and county specific data definitions for more details."
-Deaths	"Deaths (Incarcerated population, cumulative)
-Deaths (Sheriff's office, cumulative)
-Deaths (Jail staff, cumulative)"	"The total number of deaths from COVID-19 related complications
-NOTE: 
-Incarcerated population: For some counties, this may be the number of suspected but not confirmed deaths from COVID-19. 
-Refer to the raw data files/PRA request submissions/PRA request responses and county specific data definitions for more details. "
+Data Category |	Variable Names | Definition
+--------------------------------------------
+```Active Cases``` | Active Cases (Incarcerated population, current), Active Cases (Sheriff's office, current), Active Cases (Jail staff, current) | The number of current positive confirmed COVID-19 cases.\ NOTE:\ Incarcerated population: Includes individuals who tested positive during the booking or intake process\
+Incarcerated population/staff: For some counties, active cases may be the number of positive COVID-19 test results returned on a given date or during some time period prior to the specified date. As a result, it may be an inaccurate representation of active cases on the specified date. Refer to the raw data files/PRA request submissions/PRA request responses and county specific data definitions for more details.
+Confirmed Cases	| Confirmed Cases (Incarcerated population, cumulative), Confirmed Cases (Sheriff's office, cumulative), Confirmed Cases (Jail staff, cumulative) |	 The total number of positive COVID-19 cases that have been confirmed since the start of the pandemic.\ NOTE:\ Incarcerated population/staff: For some counties, the starting date of the count may be much later than Jan - March 2020, which is roughly taken to be the initial period of the pandemic. The count may also be the number of positive COVID-19 test results and not the number of COVID-19 cases, which could result in overcounting of cases. For example, if an individual was tested twice or more in the same infection period their positive cases would be counted more than once in the total.\ Sheriff's office/jail staff: For some counties, this may exclude positive cases that were not reported to the county's human resources department. It may also only include positive cases that were identified through testing on-site by the local public health department or jail medical provider. Refer to the raw data files/PRA request submissions/PRA request responses and county specific data definitions for more details.
+Deaths | Deaths (Incarcerated population, cumulative), Deaths (Sheriff's office, cumulative), Deaths (Jail staff, cumulative) | The total number of deaths from COVID-19 related complications.\ NOTE: Incarcerated population: For some counties, this may be the number of suspected but not confirmed deaths from COVID-19. Refer to the raw data files/PRA request submissions/PRA request responses and county specific data definitions for more details.
 Tests	"Tests (Incarcerated population, cumulative)
 Tests (Sheriff's office, cumulative)
 Tests (Jail staff, cumulative)"	"The total number of COVID-19 tests that have been administered since the start of the pandemic
