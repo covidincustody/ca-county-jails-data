@@ -6,7 +6,7 @@ We read and process data from each county jail (in the Google Drive link) to gen
 
 # Instructions
 
-Download repository and modify run.py file to reflect the appropriate read and write paths. The read path will be your local version of this folder: https://drive.google.com/drive/folders/1VQr_BHHzCEwUH93qSXlsF3V2k1r6wAxi. For simplest execution, use Anaconda Environment (https://www.anaconda.com/products/distribution) which has the necessary modules or packages pre-installed. Navigate to either data-transparency-cpra/transparency-scores or data-transparency-cpra/visualizations and execute program as python run.py in the Anaconda terminal.
+Download repository and modify run.py file to reflect the appropriate read and write paths. The read path will be your local version of this folder: https://drive.google.com/drive/folders/1VQr_BHHzCEwUH93qSXlsF3V2k1r6wAxi. For simplest execution, use Anaconda Environment (https://www.anaconda.com/products/distribution) which has the necessary modules or packages pre-installed. Navigate to the folder with the run.py file using the Anaconda Terminal and execute program as ```python run.py```.
 
 Please contact info@covidincustody.org with any questions or concerns
 
