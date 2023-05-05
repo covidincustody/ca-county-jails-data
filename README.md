@@ -2,7 +2,7 @@
 
 The Covid In-Custody Project is building a dataset on COVID-19 in California's correctional facilities using public sources (official websites, open data portals etc.) and freedom of information laws. This repository focuses on California's 58 county jail systems, a majority of which do not publicly disclose any data. An detailed outline of the counties, records requests, correspondences, etc. can be found here: https://drive.google.com/drive/folders/1VQr_BHHzCEwUH93qSXlsF3V2k1r6wAxi. 
 
-We read and process data that was collected from each county either from a public records request or an online source (accessible through the "Data Collection - County Jails" folder in Google Drive link above) to generate a dataset of cases, vaccinations and deaths among incarcerated people and staff: https://docs.google.com/spreadsheets/d/1q9zoEN_nI_oBAxO8k_9kd5612gCaMHSfViU-1WKVSKY/edit#gid=0. Refer to the data dictionary for details on the definitions used to aggregate data from all 58 county jail systems.
+We read and process data that was collected from each county either from a data request or an online source (see the "Data Collection - County Jails" folder in Google Drive link above) to generate a dataset of cases, vaccinations and deaths among incarcerated people and staff: https://docs.google.com/spreadsheets/d/1q9zoEN_nI_oBAxO8k_9kd5612gCaMHSfViU-1WKVSKY/edit#gid=0. Refer to the data dictionary for details on the definitions used to aggregate data from all 58 county jail systems.
 
 # Instructions
 
