@@ -10,6 +10,29 @@ Download repository and modify run.py file to reflect the appropriate read and w
 
 Please contact info@covidincustody.org with any questions or concerns
 
+# Repository Structure
+
+```bash
+├── ca-county-jails-data
+│   ├── code
+│   │   ├── run.py (cleans and aggregates data for all 58 counties)
+│   │   ├── utils.py
+│   │   ├── cloud-upload.py (do not execute unless admin)
+│   ├── data
+│   │	├── aggregate
+│   │	│	├── All_Data.xlsx (data aggregated across all 58 county jail systems)
+│   │	├── recent data
+│   │	│	├── Recent_Data.xlsx (data for the most recent time stamp for each county jail system)
+│   │	├── ca counties (raw data files for each county without aggregation or cleaning)
+│   │	│	├── Alameda County
+│   │	│	├── Amador County
+│   │	│	├── ...
+│   │	│	├── Yolo County
+│   │	│	├── Yuba County
+├── README.md
+```
+
+
 # Data Dictionary
 
 The data has been aggregated across all county jails and has the following definitions.
