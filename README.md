@@ -15,20 +15,28 @@ Please contact info@covidincustody.org with any questions or concerns
 ```bash
 ├── ca-county-jails-data
 │   ├── code
-│   │   ├── run.py (cleans and aggregates data for all 58 counties)
+│   │   ├── run.py
 │   │   ├── utils.py
 │   │   ├── cloud-upload.py (do not execute unless admin)
 │   ├── data
 │   │	├── aggregate
 │   │	│	├── All_Data.xlsx (data aggregated across all 58 county jail systems)
 │   │	├── recent data
-│   │	│	├── Recent_Data.xlsx (data for the most recent time stamp for each county jail system)
-│   │	├── ca counties (raw data files for each county without aggregation or cleaning)
+│   │	│	├── Recent_Data.xlsx (the most recent timestamp available in each county jail system)
+│   │	├── ca counties (raw data files per county without aggregation or cleaning)
 │   │	│	├── Alameda County
+│   │	│	│	├── Alameda County Jails Data.xslx (jail population cases and vaccination data)
+│   │	│	│	├── Alameda County Jails - Staff Testing & Cases.xslx (staff cases data)
+│   │	│	│	├── Alameda County Jails - Staff Vaccinations.xslx (staff vaccination data)
+│   │	│	│	├── Alameda County Jails - Vaccination Demographics.xslx (vaccinated jail population demographics)
+│   │	│	│	├── Alameda County Jails - Testing Breakdown.xslx (jail population tested)
 │   │	│	├── Amador County
+│   │	│	│	├── ...
 │   │	│	├── ...
 │   │	│	├── Yolo County
+│   │	│	│	├── ...
 │   │	│	├── Yuba County
+│   │	│	│	├── ...
 ├── README.md
 ```
 
