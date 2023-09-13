@@ -5,6 +5,7 @@ import os
 import gspread
 import oauth2client
 import oauth2client.service_account
+import shutil
 
 
 
@@ -130,3 +131,13 @@ def gen_recent_vals(county_jail_data, write_path):
 
 
 
+def write_raw_data(read_path, write_path):
+    # Read data from raw data folders and reorganize for public display
+    for county in os.listdir(read_path):
+        for file in os.listdir(read_path+'/'+county):
+            if '.xlsx' in file:
+                store_path = write_path+'/'+county
+                if not os.path.exists(store_path):
+                    os.makedirs(store_path)
+                shutil.copyfile(read_path+'/'+county+'/'+file, store_path+'/'+file)
+    return           
