@@ -7,6 +7,8 @@ import oauth2client
 import oauth2client.service_account
 
 
+
+
 def gen_var_list(var_list, pop_cat):
     # Initialize list of variables
     mod_vars = []
@@ -124,4 +126,7 @@ def gen_recent_vals(county_jail_data, write_path):
         all_recent_data.to_excel(writer, sheet_name='Recent Data', index = False)
     
     return all_recent_data
+
+
+
 
