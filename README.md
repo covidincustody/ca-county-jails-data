@@ -10,7 +10,7 @@ Download repository and modify run.py file to reflect the appropriate read and w
 
 Please contact info@covidincustody.org with any questions or concerns
 
-# Repository Structure
+# Repo Structure
 
 ```bash
 ├── ca-county-jails-data
