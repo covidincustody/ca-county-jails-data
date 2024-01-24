@@ -1,3 +1,14 @@
+# Table of Contents
+
+- [Background](#background)
+- [Instructions](#instructions)
+- [Repo Structure](#repo-structure)
+- [Data Dictionary](#data-dictionary)
+  * [General](#general)
+  * [Sources](#sources)
+  * [Note](#note)
+  * [Definitions](#definitions)
+
 # Background
 
 The Covid In-Custody Project is building a dataset on COVID-19 in California's correctional facilities using public sources (official websites, open data portals etc.) and freedom of information laws. This repository focuses on California's 58 county jail systems, a majority of which do not publicly disclose any data. An detailed outline of the counties, records requests, correspondences, etc. can be found here: https://drive.google.com/drive/folders/1VQr_BHHzCEwUH93qSXlsF3V2k1r6wAxi. 
@@ -13,29 +24,29 @@ Please contact info@covidincustody.org with any questions or concerns
 # Repo Structure
 
 ```bash
-├── ca-county-jails-data
-│   ├── code
-│   │   ├── run.py
-│   │   ├── utils.py
-│   │   ├── cloud-upload.py (do not execute unless admin)
-│   ├── data
-│   │	├── aggregate
+├── `ca-county-jails-data`
+│   ├── `code`
+│   │   ├── 'run.py'
+│   │   ├── 'utils.py'
+│   │   ├── 'cloud-upload.py' (do not execute unless admin)
+│   ├── `data`
+│   │	├── `aggregate`
 │   │	│	├── All_Data.xlsx (data aggregated across all 58 county jail systems)
-│   │	├── recent data
-│   │	│	├── Recent_Data.xlsx (the most recent timestamp available in each county jail system)
-│   │	├── ca counties (raw data files per county without aggregation or cleaning)
-│   │	│	├── Alameda County
-│   │	│	│	├── Alameda County Jails Data.xslx (jail population cases and vaccination data)
-│   │	│	│	├── Alameda County Jails - Staff Testing & Cases.xslx (staff cases data)
-│   │	│	│	├── Alameda County Jails - Staff Vaccinations.xslx (staff vaccination data)
-│   │	│	│	├── Alameda County Jails - Vaccination Demographics.xslx (vaccinated jail population demographics)
-│   │	│	│	├── Alameda County Jails - Testing Breakdown.xslx (jail population tested)
-│   │	│	├── Amador County
+│   │	├── `recent data`
+│   │	│	├── 'Recent_Data.xlsx' (the most recent timestamp available per county jail system)
+│   │	├── `ca counties` (raw data files per county without aggregation or cleaning)
+│   │	│	├── `Alameda County`
+│   │	│	│	├── 'Alameda County Jails Data.xslx' (jail population cases and vaccination data)
+│   │	│	│	├── 'Alameda County Jails - Staff Testing & Cases.xslx' (staff cases data)
+│   │	│	│	├── 'Alameda County Jails - Staff Vaccinations.xslx' (staff vaccination data)
+│   │	│	│	├── 'Alameda County Jails - Vaccination Demographics.xslx' (vaccinated jail population demographics)
+│   │	│	│	├── 'Alameda County Jails - Testing Breakdown.xslx' (jail population tested)
+│   │	│	├── `Amador County`
 │   │	│	│	├── ...
 │   │	│	├── ...
-│   │	│	├── Yolo County
+│   │	│	├── `Yolo County`
 │   │	│	│	├── ...
-│   │	│	├── Yuba County
+│   │	│	├── `Yuba County`
 │   │	│	│	├── ...
 ├── README.md
 ```
