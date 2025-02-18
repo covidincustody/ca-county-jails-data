@@ -11,13 +11,13 @@
 
 # Background
 
-The Covid In-Custody Project is building a dataset on COVID-19 in California's correctional facilities using public sources (official websites, open data portals etc.) and freedom of information laws. This repository focuses on California's 58 county jail systems, a majority of which do not publicly disclose any data. An detailed outline of the counties, records requests, correspondences, etc. can be found here: https://drive.google.com/drive/folders/1VQr_BHHzCEwUH93qSXlsF3V2k1r6wAxi. 
+Our dataset on COVID-19 in California's correctional facilities combines information that was publicly disclosed by county agencies (official websites, open data portals etc.) or retrieved retrieved using freedom of information laws. In this repository, we focus on California's 58 county jails managed by independent sheriff's departments as opposed to the 35 state prisons under the jurisdiction of the CA Department of Corrections and Rehabilitation (CDCR). Since a majority of the county jails did not publicly disclose any COVID-19 data (cases, testing rate, vaccination rate, etc.), we relied on the California Public Records Act (CPRA) to gain insights into the pandemic behind bars. Details about our correspondences with the public records units can be found here: https://drive.google.com/drive/folders/1VQr_BHHzCEwUH93qSXlsF3V2k1r6wAxi. 
 
-We read and process data that was collected from each county either from a data request or an online source (see the "Data Collection - County Jails" folder in Google Drive link above) to generate a dataset of cases, vaccinations and deaths among incarcerated people and staff: https://docs.google.com/spreadsheets/d/1q9zoEN_nI_oBAxO8k_9kd5612gCaMHSfViU-1WKVSKY/edit#gid=0. Refer to the data dictionary for details on the definitions used to aggregate data from all 58 county jail systems.
+Dataset is live and available here: https://docs.google.com/spreadsheets/d/1q9zoEN_nI_oBAxO8k_9kd5612gCaMHSfViU-1WKVSKY/edit#gid=0. Refer to the data dictionary for details on the definitions used to aggregate data from all 58 county jail systems.
 
 # Instructions
 
-Download repository and modify run.py file to reflect the appropriate read and write paths. The read path will be your local version of this folder: https://drive.google.com/drive/folders/1VQr_BHHzCEwUH93qSXlsF3V2k1r6wAxi. For simplest execution, use Anaconda Environment (https://www.anaconda.com/products/distribution) which has the necessary modules or packages pre-installed. Navigate to the folder with the run.py file using the Anaconda Terminal and execute program as ```python run.py```.
+Download repository and modify run.py file to reflect the appropriate read and write paths. The read path will be your local copy of this folder: https://drive.google.com/drive/folders/1VQr_BHHzCEwUH93qSXlsF3V2k1r6wAxi. For simplest execution, use Anacondas (https://www.anaconda.com/products/distribution) with the necessary modules or packages pre-installed. Navigate to the folder with the run.py file using the Anaconda Terminal and execute program as ```python run.py```.
 
 Please contact info@covidincustody.org with any questions or concerns
 
@@ -53,8 +53,6 @@ Please contact info@covidincustody.org with any questions or concerns
 
 
 # Data Dictionary
-
-The data has been aggregated across all county jails and has the following definitions.
 
 ## General
 ```Incarcerated population```:	The population in the Sheriff's Office county jail custody.</br>
